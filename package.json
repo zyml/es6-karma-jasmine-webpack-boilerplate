@@ -1,8 +1,12 @@
 {
   "name": "es6-karma-jasmine-webpack-boilerplate",
   "version": "0.1.0",
-  "description": "Boilerplate for ES6 client-based library. Uses Babel and webpack for transpiling and building, Karma and Jasmine for unit testing.",
+  "description": "Boilerplate for ES6 client-based library. Uses Babel and webpack for transpiling and building, Karma and Jasmine for unit testing, and Istanbul/Isparta for code coverage.",
   "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zyml/es6-karma-jasmine-webpack-boilerplate"
+  },
   "scripts": {
     "build": "npm run build:dev && npm run build:prd",
     "build:dev": "webpack src/index.js dist/lib.js --config webpack.config.dev.js",
