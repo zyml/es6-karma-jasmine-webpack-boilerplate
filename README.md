@@ -1,5 +1,7 @@
 # ES6 Karma Jasmine Webpack Boilerplate
 
+_No Grunt/Gulp required!_
+
 **Work in Progress**
 
 Boilerplate for building a client-based JavaScript library in ES6 using the following components:
