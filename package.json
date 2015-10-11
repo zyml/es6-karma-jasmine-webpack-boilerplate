@@ -2,19 +2,18 @@
   "name": "es6-karma-jasmine-webpack-boilerplate",
   "version": "0.1.0",
   "description": "Boilerplate for ES6 client-based library. Uses Babel and webpack for transpiling and building, Karma and Jasmine for unit testing, and Istanbul/Isparta for code coverage.",
-  "main": "src/index.js",
+  "main": "src/Calculator.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/zyml/es6-karma-jasmine-webpack-boilerplate"
   },
   "scripts": {
-    "build": "npm run build:dev && npm run build:prd",
-    "build:dev": "webpack src/index.js dist/lib.js --config webpack.config.dev.js",
-    "build:prd": "webpack src/index.js dist/lib.min.js --config webpack.config.prd.js",
+    "build": "npm run clean && npm run build:dev && npm run build:prd",
+    "build:dev": "webpack src/Calculator.js dist/calculator.js --config webpack.config.dev.js",
+    "build:prd": "webpack src/Calculator.js dist/calculator.min.js --config webpack.config.prd.js",
     "clean": "rimraf dist build",
     "lint": "eslint .",
-    "test": "karma start --single-run --no-auto-watch karma.config.js",
-    "test:watch": "karma start --no-single-run --auto-watch karma.config.js"
+    "test": "karma start --single-run --no-auto-watch karma.config.js"
   },
   "keywords": [
     "es6",
