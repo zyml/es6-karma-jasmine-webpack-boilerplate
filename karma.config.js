@@ -3,10 +3,6 @@ module.exports = function(config) {
     browsers: ['PhantomJS'],
     coverageReporter: {
       dir: 'build',
-      instrumenters: { isparta : require('isparta') },
-      instrumenter: {
-        '**/*.js': 'isparta'
-      },
       reporters: [
         { type: 'text-summary' },
         { type: 'html', subdir: 'coverage' }
