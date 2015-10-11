@@ -2,16 +2,14 @@
 
 _No Grunt/Gulp required!_
 
-**Work in Progress**
-
 Boilerplate for building a client-based JavaScript library in ES6 using the following components:
 
-* Babel
-* Webpack
-* Jasmine
-* Karma
-* Istanbul with Isparta
-* ESLint with eslint-config-airbnb
+* [Babel](https://babeljs.io/)
+* [Webpack](https://webpack.github.io/)
+* [Jasmine](http://jasmine.github.io/)
+* [Karma](http://karma-runner.github.io/)
+* [Istanbul](https://github.com/yahoo/istanbul) with [Isparta](https://github.com/douglasduteil/isparta)
+* [ESLint](http://eslint.org/) with [eslint-config-airbnb](https://github.com/airbnb/javascript)
 
 ## Current Issues
 * Code coverage from Isparta is not returning the correct statement, methods and line counts.
