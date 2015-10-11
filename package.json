@@ -2,7 +2,7 @@
   "name": "es6-karma-jasmine-webpack-boilerplate",
   "version": "0.1.0",
   "description": "Boilerplate for ES6 client-based library. Uses Babel and webpack for transpiling and building, Karma and Jasmine for unit testing, and Istanbul/Isparta for code coverage.",
-  "main": "dist/calculator.min.js",
+  "main": "dist/calculator.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/zyml/es6-karma-jasmine-webpack-boilerplate"
@@ -20,7 +20,9 @@
     "babel",
     "webpack",
     "jasmine",
-    "karma"
+    "karma",
+    "istanbul",
+    "boilerplate"
   ],
   "author": "Melvin Lee (http://www.zy.sg/)",
   "license": "MIT",
