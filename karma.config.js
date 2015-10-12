@@ -29,15 +29,13 @@ module.exports = function(config) {
         preLoaders: [
           {
             test: /\.js$/,
-            exclude: /(tests|bower_components|node_modules)/,
-            loaders: ['isparta'],
+            exclude: /(src|bower_components|node_modules)/,
+            loaders: ['babel'],
           },
-        ],
-        loaders: [
           {
             test: /\.js$/,
-            exclude: /(bower_components|node_modules)/,
-            loaders: ['babel'],
+            include: /(src)/,
+            loaders: ['isparta'],
           },
         ],
       },
