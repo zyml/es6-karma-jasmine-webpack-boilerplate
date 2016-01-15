@@ -1,7 +1,6 @@
 *.log
 /.*/
 /build/
-/tests/
 /.eslint*
 /.gitignore
 /.npmignore

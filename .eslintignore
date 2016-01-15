@@ -2,8 +2,5 @@ build/*
 dist/*
 node_modules/*
 **/node_modules/*
-tests/*
+tools/*
 tests.webpack.js
-
-*.config.js
-**.config.*.js

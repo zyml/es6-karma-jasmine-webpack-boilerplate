@@ -1,4 +1,6 @@
 {
-  "stage": 0,
-  "optional": ["es7.classProperties"]
+  "presets": ["es2015"],
+  "plugins": [
+    "add-module-exports"
+  ]
 }

@@ -3,12 +3,12 @@ module.exports = {
     loaders: [{
       test: /\.js$/,
       exclude: /(bower_components|node_modules)/,
-      loaders: ['babel'],
+      loader: 'babel',
     }],
   },
   output: {
     libraryTarget: 'umd',
-    library: 'calculator'
+    library: 'calculator',
   },
   resolve: {
     extensions: [
