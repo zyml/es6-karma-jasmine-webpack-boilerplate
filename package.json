@@ -44,6 +44,7 @@
     "karma-jasmine": "^0.3.6",
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^1.7.0",
+    "loader-utils": "^0.2.12",
     "rimraf": "^2.5.0",
     "webpack": "^1.12.11"
   }

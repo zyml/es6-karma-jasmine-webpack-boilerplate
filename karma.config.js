@@ -16,7 +16,7 @@ module.exports = function (config) {
       'jasmine',
     ],
     preprocessors: {
-      'tests.webpack.js': ['webpack'],
+      'tests.webpack.js': ['webpack', 'sourcemap'],
     },
     reporters: ['progress', 'coverage'],
     webpack: {
